@@ -3,8 +3,13 @@
     package="com.xmsdk.gradlelib">
 
     <application>
-        <activity android:name=".TestActivity"
+        <activity android:name=".PayActivity"
             android:screenOrientation="portrait"></activity>
+        <activity android:name=".LoginActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".TestActivity"
+            android:screenOrientation="portrait" />
     </application>
 
 </manifest>
