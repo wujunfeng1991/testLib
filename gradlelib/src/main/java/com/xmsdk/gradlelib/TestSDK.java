@@ -10,13 +10,13 @@ import android.content.Intent;
  */
 public class TestSDK {
 
-    private TestSDK instance;
+    private static TestSDK instance;
 
     private TestSDK(){
 
     }
 
-    public TestSDK getInstance() {
+    public static TestSDK getInstance() {
         if (instance == null){
             instance = new TestSDK();
         }
