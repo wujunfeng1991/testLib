@@ -3,6 +3,8 @@ package com.xmsdk.gradlelib;
 import android.app.Activity;
 import android.content.Intent;
 
+import okhttp3.OkHttpClient;
+
 /**
  * @author wujunfeng
  * @description
@@ -27,6 +29,7 @@ public class TestSDK {
         Intent intent = new Intent();
         intent.setClass(activity, LoginActivity.class);
         activity.startActivity(intent);
+        OkHttpClient client = new OkHttpClient();
     }
 
     public void pay(Activity activity){
